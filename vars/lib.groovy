@@ -1,4 +1,4 @@
-def call(){
-    echo ("FOO: ${FOO}")
-    echo ("FOO:"+env.FOO)
+def displayEnv(script) {
+ println "Shared lib var/lib FOO=${FOO}"
+ MyClass c = new MyClass(script)
 }
